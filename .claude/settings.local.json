@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"C:\\\\Users\\\\haowe\\\\OneDrive\\\\Desktop\\\\MIT\\\\PianoProject\\\\Code\\\\PianoProjectVenv\\\\data\\\\pia02\\\\coco\\\\azu-kios.github.io\")",
+      "Bash(dir \"C:\\\\Users\\\\haowe\\\\OneDrive\\\\Desktop\\\\MIT\\\\PianoProject\\\\Code\\\\PianoProjectVenv\\\\data\\\\pia02\\\\coco\\\\azu-kios.github.io\\\\materials\")",
+      "Bash(dir:*)"
+    ]
+  }
+}
