@@ -3,7 +3,9 @@
     "allow": [
       "Bash(dir \"C:\\\\Users\\\\haowe\\\\OneDrive\\\\Desktop\\\\MIT\\\\PianoProject\\\\Code\\\\PianoProjectVenv\\\\data\\\\pia02\\\\coco\\\\azu-kios.github.io\")",
       "Bash(dir \"C:\\\\Users\\\\haowe\\\\OneDrive\\\\Desktop\\\\MIT\\\\PianoProject\\\\Code\\\\PianoProjectVenv\\\\data\\\\pia02\\\\coco\\\\azu-kios.github.io\\\\materials\")",
-      "Bash(dir:*)"
+      "Bash(dir:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd react-portfolio-designer agent configuration\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
