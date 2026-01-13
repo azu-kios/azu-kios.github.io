@@ -1,0 +1,82 @@
+/* Style Tabs Styles */
+
+.style-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--color-divider);
+  margin-bottom: 48px;
+}
+
+.style-tab {
+  font-family: var(--font-primary);
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--color-text-secondary);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 0;
+  position: relative;
+  transition: color var(--duration-normal) ease;
+}
+
+.style-tab::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--color-text-primary);
+  transition: width var(--duration-normal) ease;
+}
+
+.style-tab:hover {
+  color: var(--color-text-primary);
+}
+
+.style-tab.active {
+  color: var(--color-text-primary);
+}
+
+.style-tab.active::after {
+  width: 100%;
+}
+
+/* Mobile: Horizontal scroll */
+@media (max-width: 767px) {
+  .style-tabs {
+    justify-content: flex-start;
+    gap: 24px;
+    overflow-x: auto;
+    padding: 16px var(--container-padding-mobile);
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin-bottom: 32px;
+  }
+
+  .style-tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .style-tab {
+    font-size: 20px;
+    white-space: nowrap;
+    padding: 12px 8px;
+    min-height: 44px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .style-tabs {
+    gap: 36px;
+  }
+
+  .style-tab {
+    font-size: 22px;
+  }
+}

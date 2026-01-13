@@ -1,0 +1,143 @@
+/* Lightbox Styles */
+
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--color-overlay-dark);
+  z-index: var(--z-modal);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity var(--duration-normal) ease, visibility var(--duration-normal) ease;
+}
+
+.lightbox.open {
+  opacity: 1;
+  visibility: visible;
+}
+
+.lightbox-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-normal);
+  color: var(--color-header-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: opacity var(--duration-normal) ease;
+}
+
+.lightbox-close:hover {
+  opacity: 0.7;
+}
+
+.lightbox-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 90%;
+  position: relative;
+}
+
+.lightbox-image {
+  max-width: 80%;
+  max-height: 70vh;
+  object-fit: contain;
+  transform: scale(0.95);
+  transition: transform var(--duration-normal) ease;
+}
+
+.lightbox.open .lightbox-image {
+  transform: scale(1);
+}
+
+.lightbox-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 48px;
+  color: var(--color-header-text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 16px;
+  opacity: 0.6;
+  transition: opacity var(--duration-normal) ease, transform 0.2s ease;
+}
+
+.lightbox-nav:hover {
+  opacity: 1;
+  transform: translateY(-50%) scale(1.1);
+}
+
+.lightbox-nav.prev {
+  left: 24px;
+}
+
+.lightbox-nav.next {
+  right: 24px;
+}
+
+.lightbox-title {
+  font-family: var(--font-primary);
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-wider);
+  color: var(--color-header-text);
+  margin-top: 24px;
+  text-align: center;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .lightbox-image {
+    max-width: 95%;
+    max-height: 60vh;
+  }
+
+  .lightbox-close {
+    top: 16px;
+    right: 16px;
+    font-size: 18px;
+    padding: 12px;
+  }
+
+  .lightbox-nav {
+    top: auto;
+    bottom: 100px;
+    transform: none;
+    font-size: 36px;
+    padding: 24px;
+    min-width: 48px;
+    min-height: 48px;
+  }
+
+  .lightbox-nav:hover {
+    transform: none;
+  }
+
+  .lightbox-nav.prev {
+    left: 24px;
+  }
+
+  .lightbox-nav.next {
+    right: 24px;
+  }
+
+  .lightbox-title {
+    font-size: 22px;
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,141 @@
+/* ==========================================================================
+   CSS Variables - Design System Tokens
+   Based on Azukios Portfolio Design Document
+   ========================================================================== */
+
+:root {
+  /* ========================================================================
+     Colors
+     ======================================================================== */
+
+  /* Primary Background */
+  --color-bg-primary: rgba(245, 240, 235, 1);      /* Warm Cream */
+  --color-bg-secondary: rgba(250, 248, 245, 1);    /* Soft Ivory */
+
+  /* Text Colors */
+  --color-text-primary: rgba(44, 44, 44, 1);       /* Charcoal */
+  --color-text-secondary: rgba(107, 101, 96, 1);   /* Warm Gray */
+  --color-text-muted: rgba(154, 149, 144, 1);      /* Dusty Gray */
+
+  /* Accent Colors */
+  --color-accent-primary: rgba(196, 166, 143, 1);  /* Dusty Rose */
+  --color-accent-hover: rgba(168, 145, 122, 1);    /* Warm Taupe */
+  --color-accent-gold: rgba(212, 184, 150, 1);     /* Muted Gold */
+
+  /* Structural Colors */
+  --color-header: rgba(58, 54, 51, 1);             /* Deep Charcoal */
+  --color-header-text: rgba(245, 240, 235, 1);     /* Soft White */
+  --color-divider: rgba(229, 221, 213, 1);         /* Light Taupe */
+  --color-overlay: rgba(44, 44, 44, 0.85);         /* Dark Overlay */
+  --color-overlay-dark: rgba(44, 44, 44, 0.95);    /* Darker Overlay for lightbox */
+
+  /* ========================================================================
+     Typography
+     ======================================================================== */
+
+  /* Font Families */
+  --font-primary: 'Amatic SC', cursive;
+  --font-logo: 'Zapfino Forte', cursive;
+
+  /* Font Sizes */
+  --text-xs: 14px;
+  --text-sm: 16px;
+  --text-base: 20px;
+  --text-lg: 28px;
+  --text-xl: 36px;
+  --text-2xl: 48px;
+
+  /* Letter Spacing */
+  --tracking-tight: 2px;
+  --tracking-normal: 3px;
+  --tracking-wide: 4px;
+  --tracking-wider: 5px;
+
+  /* ========================================================================
+     Spacing
+     ======================================================================== */
+
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 64px;
+  --space-2xl: 100px;
+  --space-3xl: 140px;
+
+  /* ========================================================================
+     Layout
+     ======================================================================== */
+
+  /* Container Widths */
+  --container-wide: 1400px;
+  --container-standard: 1200px;
+  --container-narrow: 800px;
+
+  /* Navbar */
+  --navbar-height: 80px;
+  --navbar-height-mobile: 70px;
+
+  /* Container Padding */
+  --container-padding: 60px;
+  --container-padding-mobile: 24px;
+
+  /* ========================================================================
+     Z-Index Scale
+     ======================================================================== */
+
+  --z-base: 0;
+  --z-dropdown: 100;
+  --z-sticky: 500;
+  --z-navbar: 1000;
+  --z-modal: 2000;
+  --z-toast: 3000;
+
+  /* ========================================================================
+     Transitions
+     ======================================================================== */
+
+  /* Timing Functions */
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-bounce: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --ease-in-out: ease-in-out;
+
+  /* Durations */
+  --duration-fast: 0.15s;
+  --duration-normal: 0.3s;
+  --duration-slow: 0.5s;
+  --duration-slower: 1s;
+}
+
+/* ============================================================================
+   Responsive Typography
+   ============================================================================ */
+
+/* Mobile (< 768px) */
+@media (max-width: 767px) {
+  :root {
+    --text-2xl: 36px;
+    --text-xl: 28px;
+    --text-lg: 24px;
+    --text-base: 18px;
+    --text-sm: 14px;
+    --text-xs: 12px;
+
+    --container-padding: 24px;
+    --navbar-height: 70px;
+  }
+}
+
+/* Tablet (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    --text-2xl: 42px;
+    --text-xl: 32px;
+    --text-lg: 26px;
+    --text-base: 19px;
+    --text-sm: 15px;
+    --text-xs: 13px;
+
+    --container-padding: 40px;
+  }
+}

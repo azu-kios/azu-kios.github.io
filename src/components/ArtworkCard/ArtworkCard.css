@@ -1,0 +1,40 @@
+/* Artwork Card Styles */
+
+.artwork-card {
+  cursor: pointer;
+  transition: transform var(--duration-normal) ease, box-shadow var(--duration-normal) ease;
+}
+
+.artwork-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(44, 44, 44, 0.1);
+}
+
+.artwork-image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 4px;
+  transition: transform var(--duration-normal) ease;
+}
+
+.artwork-card:hover .artwork-image {
+  transform: scale(1.02);
+}
+
+.artwork-title {
+  font-family: var(--font-primary);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: var(--tracking-normal);
+  color: var(--color-text-primary);
+  text-align: center;
+  margin-top: 16px;
+}
+
+@media (max-width: 767px) {
+  .artwork-title {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+}

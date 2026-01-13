@@ -1,0 +1,36 @@
+/* Art Page Styles */
+
+.art-page {
+  flex: 1;
+  padding-top: var(--navbar-height);
+  padding-bottom: var(--space-2xl);
+  background-color: var(--color-bg-primary);
+}
+
+.art-page-header {
+  max-width: var(--container-wide);
+  margin: 0 auto;
+  padding: var(--space-xl) var(--container-padding) var(--space-md);
+}
+
+.art-page .page-title {
+  font-family: var(--font-primary);
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  letter-spacing: var(--tracking-wider);
+  color: var(--color-text-primary);
+  text-align: center;
+  margin: 0;
+}
+
+/* Mobile Styles */
+@media (max-width: 767px) {
+  .art-page {
+    padding-top: var(--navbar-height-mobile);
+    padding-bottom: var(--space-xl);
+  }
+
+  .art-page-header {
+    padding: var(--space-lg) var(--container-padding-mobile) var(--space-sm);
+  }
+}
