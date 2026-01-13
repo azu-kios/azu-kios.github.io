@@ -1,26 +1,3 @@
-Homepage:
-Text font instructions: Azukios-ProfilePicture-rose.jpeg and large titles using Azukios-Signature.PNG (including menu bar), use the ttf font titled Zapfinoforte. For descriptions, use the ttf font AmaticSCbold with kerning or spacing of 5.0.) the texts should be aligned to the left.
-For all rights reserved and small supplementary texts, use AmaticSCregular.
-Introduction message here
-(Image Gallery showcase)
-Art (drop down menu):
-Affection
-Description of affection
-Gentle
-Description of gentle
-Lucid Dream
-Description of lucid dream
-Royal
-Description of royal
-Seasons
-Description of seasons
-Projects (drop down menu)
-Butterfly Dance
-		-image ( paragraph text for project description )
-Sandstorm in Egypt
-		-image ( paragraph text for project description )
-Untitled 3
-		-image ( paragraph text for project description )
 About me:
 (Insert image)
 Ki is a freelance artist based in London, Uk. She currently studies at University of the Arts London, Central Saint Martins. Contact for work inquiries.
@@ -37,3 +14,6 @@ Publications:
 	•	Ancient Wormhole — featured in Urchamber: Prototype Chamber, a Paris-based non-profit magazine focusing on feminist thought and contemporary art practices. Organized by the Contimeintemps Association.
 October 2025, Paris, France
 Bottom of website: All rights reserved by Azukios.
+Homepage:
+Text font instructions: Azukios-ProfilePicture-rose.jpeg and large titles using Azukios-Signature.PNG (including menu bar), use the ttf font titled Zapfinoforte. For descriptions, use the ttf font AmaticSCbold with kerning or spacing of 5.0.) the texts should be aligned to the left.
+For all rights reserved and small supplementary texts, use AmaticSCregular.
