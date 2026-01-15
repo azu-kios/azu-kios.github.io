@@ -38,12 +38,12 @@ function Carousel({ images, autoAdvanceInterval = 5000 }: CarouselProps) {
   }
 
   return (
-    <div
-      className="carousel"
-      onMouseEnter={handleMouseEnter}
-      onMouseLeave={handleMouseLeave}
-    >
-      <div className="carousel-container">
+    <div className="carousel">
+      <div
+        className="carousel-container"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         {images.map((image, index) => (
           <img
             key={image.id}
@@ -54,7 +54,11 @@ function Carousel({ images, autoAdvanceInterval = 5000 }: CarouselProps) {
         ))}
       </div>
 
-      <div className="carousel-indicators">
+      <div
+        className="carousel-indicators"
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+      >
         {images.map((_, index) => (
           <button
             key={index}
