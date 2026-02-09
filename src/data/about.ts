@@ -1,7 +1,7 @@
 import type { Exhibition, Publication, ContactInfo } from '../types';
 
 export const artistInfo = {
-  name: 'Ki (Azukios)',
+  name: 'AZUKIOS',
   title: 'Artist',
   profileImage: '/images/about/Azukios-ProfilePicture-rose.jpeg',
   signatureImage: '/images/about/Azukios-Signature.PNG',

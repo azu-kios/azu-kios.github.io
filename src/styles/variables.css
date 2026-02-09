@@ -34,8 +34,8 @@
      ======================================================================== */
 
   /* Font Families */
-  --font-primary: 'Amatic SC', cursive;
-  --font-logo: 'Zapfino Forte', cursive;
+  --font-primary: 'XingChenWenRouLangManTi', cursive;
+  --font-logo: 'XingChenWenRouLangManTi', cursive;
 
   /* Font Sizes */
   --text-xs: 14px;
@@ -46,10 +46,10 @@
   --text-2xl: 48px;
 
   /* Letter Spacing */
-  --tracking-tight: 2px;
-  --tracking-normal: 3px;
-  --tracking-wide: 4px;
-  --tracking-wider: 5px;
+  --tracking-tight: 1px;
+  --tracking-normal: 1.5px;
+  --tracking-wide: 2px;
+  --tracking-wider: 2.5px;
 
   /* ========================================================================
      Spacing

@@ -74,9 +74,9 @@
 .bio-text {
   font-family: var(--font-primary);
   font-size: var(--text-base);
-  font-weight: 700;
+  font-weight: 400;
   letter-spacing: var(--tracking-wider);
-  line-height: 1.8;
+  line-height: 1.4;
   color: var(--color-text-primary);
   text-align: left;
   margin: 0;
@@ -131,7 +131,7 @@
   font-weight: 400;
   letter-spacing: var(--tracking-normal);
   color: var(--color-text-secondary);
-  line-height: 1.6;
+  line-height: 1.2;
   margin: 0;
 }
 

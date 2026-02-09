@@ -5,7 +5,7 @@ function About() {
   return (
     <main className="about-page page-enter">
       <div className="about-header">
-        <h1 className="page-title">About Me</h1>
+        <h1 className="page-title">ABOUT ME</h1>
       </div>
 
       {/* Profile Section */}
