@@ -34,6 +34,12 @@ export const artworks: Artwork[] = [
     image: '/images/art/Affection/Affection4-Heartburn.png',
     style: 'Affection',
   },
+  {
+    id: 'affection-5',
+    title: 'Afterlight',
+    image: '/images/art/Affection/Affection5-Afterlight.PNG',
+    style: 'Affection',
+  },
 
   // Gentle Series
   {
